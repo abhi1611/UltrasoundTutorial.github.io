@@ -31,6 +31,8 @@ header {
     padding: 20px;
     font-size: 24px;
     font-weight: bold;
+    color: #ffffff; /* Text color */
+    background-color: #007bff; /* Banner background color matching button color */
 }
 
 main {
@@ -44,13 +46,13 @@ button {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: #007bff;
+    background-color: #007bff; /* Button background color */
     color: white;
     transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Darker shade on hover */
 }
 
 .download-link {
@@ -58,7 +60,7 @@ button:hover {
     margin-top: 20px;
     font-size: 18px;
     text-decoration: none;
-    color: #007bff;
+    color: #007bff; /* Link color matching button color */
 }
 
 .download-link:hover {
